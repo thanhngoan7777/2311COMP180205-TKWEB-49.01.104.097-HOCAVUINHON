@@ -1,0 +1,120 @@
+#diver1{
+    left: 100px; top:350px;
+    position: absolute;
+    animation: Diver1 10s linear infinite running;
+}
+/*Doi thong so left va top*/
+@keyframes Diver1  { 
+    0% {left: 100px; top: 350px;}
+    20% {left: 300px; top: 350px;}
+    40% {left: 500px; top: 350px;}
+    50% {left: 700px; top: 350px;}
+    60% {left: 500px; top: 350px;}
+    80% {left: 200px; top: 350px;}
+    100% {left: 100px; top: 350px; transform: scaleX(-1);}
+}
+
+
+#diver2{
+    left: 200px; top:500px;
+    position: absolute;
+    animation: Diver2 10s linear infinite running;
+}
+
+@keyframes Diver2  { 
+    0% {left: 300px; top: 500px;}
+    20% {left: 400px; top: 500px;}
+    40% {left: 600px; top: 500px;}
+    50% {left: 1000px; top: 500px;}
+    60% {left: 700px; top: 500px;}
+    80% {left: 500px; top: 500px;}
+    100% {left: 300px; top: 500px; transform: scaleX(-1);}
+}
+
+#diver3{
+    left: 50px; top:200px;
+    position: absolute;
+    animation: Diver3 20s linear infinite running;
+}
+
+@keyframes Diver3  { 
+    0% {left: 50px; top: 200px;}
+    20% {left: 200px; top: 200px;}
+    30% {left: 500px; top: 200px ;}
+    40% {left: 800px; top: 150px;}
+    50% {left: 1000px; top: 150px;}
+    60% {left: 600px; top: 200px;}
+    80% {left: 500px; top: 150px;}
+    100% {left: 50px; top: 150px; transform: scaleX(-1);}
+}
+
+
+#shark{
+    left: 100px; top:400px;
+    position: absolute;
+    animation: Shark 5s linear infinite running;
+}
+@keyframes Shark  {
+    0% {left: 100px; top: 400px;}
+    20% {left: 300px; top: 400px;}
+    40% {left: 500px; top: 300px;}
+    50% {left: 600px; top: 50px;}
+    60% {left: 600px; top: 100px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+
+#turtle{
+    left: 50px; top:100px;
+    position: absolute;
+    animation: Turtle 20s linear infinite running;
+}
+
+@keyframes Turtle  { 
+    0% {left: 50px; top: 100px;}
+    20% {left: 200px; top: 100px;}
+    40% {left: 400px; top: 100px;}
+    50% {left: 700px; top: 100px;}
+    60% {left: 400px; top: 100px;}
+    80% {left: 200px; top: 100px;}
+    100% {left: 50px; top: 100px; transform: scaleX(-1);}
+}
+
+#faintSchool{
+    left: 100px; top:300px;
+    position: absolute;
+    animation: FaintSchool 10s linear infinite running;
+}
+
+@keyframes FaintSchool  { 
+	0% {left: 100px; top: 350px;}
+    20% {left: 300px; top: 350px;}
+    40% {left: 500px; top: 350px;}
+    50% {left: 700px; top: 350px;}
+    60% {left: 500px; top: 350px;}
+    80% {left: 200px; top: 350px;}
+    100% {left: 100px; top: 350px; transform: scaleX(-1);}
+    0% {left: 100px; top: 300px;}
+    20% {left: 300px; top: 300px;}
+    40% {left: 500px; top: 300px;}
+    50% {left: 700px; top: 300px;}
+    60% {left: 500px; top: 300px;}
+    80% {left: 200px; top: 300px;}
+    100% {left: 100px; top: 300px; transform: scaleX(-1);}
+}
+
+#goldFishSchool{
+    left: 300px; top:200px;
+    position: absolute;
+    animation: GoldFishSchool 8s linear infinite running;
+}
+
+@keyframes GoldFishSchool  { 
+    0% {left: 300px; top: 200px;}
+    20% {left: 500px; top: 200px;}
+    40% {left: 800px; top: 200px;}
+    50% {left: 1000px; top: 200px;}
+    60% {left: 800px; top: 200px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 300px; top: 200px; transform: scaleX(-1);}
+}
